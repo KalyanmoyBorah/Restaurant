@@ -1,0 +1,326 @@
+/*--------------------- head------------------------ */
+body {
+  background-color: #1d1919;
+}
+
+#header {
+  margin-bottom: 100px;
+  background-color: #1d1919;
+}
+
+.navbar {
+  margin-bottom: 50px;
+}
+
+.btn {
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+.heading {
+  color: white;
+  margin-left: 50px;
+  margin-top: 70px;
+  font-family: 'Merriweather', serif;
+  font-size: 3.5rem;
+}
+
+.navbar-brand {
+  color: #f3cf7a;
+  font-size: 3rem;
+  font-family: 'Italianno', cursive;
+  margin-left: 100px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+#navbarNav {
+  margin-right: 120px;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  color: #f3cf7a;
+}
+
+.panimg {
+  filter: drop-shadow(30px 10px 4px #000000);
+}
+
+/*---------------------- our story------------------- */
+.ourstoryimg {
+  height: 300px;
+  width: 400px;
+  margin-left: 150px;
+  margin-right: 0;
+}
+
+.story-img {
+  padding-right: 0;
+}
+
+.text {
+  margin-right: 100px;
+  background-color: white;
+  margin-left: 0;
+}
+
+.story {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-family: 'Italianno', cursive;
+  color: #f3cf7a;
+  margin-bottom: 0;
+  padding-top: 2%;
+}
+
+.storyh1 {
+  color: black;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+}
+
+.storyp {
+  color: black;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #f3cf7a;
+}
+
+/*................... Menu..................... */
+h1 {
+  color: white;
+  font-family: 'Merriweather', serif;
+  font-size: 2rem;
+}
+
+.menutext {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.menucontent {
+  margin-right: 70px;
+}
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+}
+
+.menu {
+  margin-top: 100px;
+}
+
+/*.................... item1.................. */
+.item1img {
+  height: 300px;
+  width: 300px;
+  margin-left: 200px;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.item1img:hover {
+  transform: rotate(100deg);
+  -webkit-transform: rotate(100deg);
+}
+
+.item1 {
+  margin-top: 100px;
+}
+
+.itemp {
+  padding-top: 20px;
+}
+
+.itemheading {
+  font-size: 2.5rem;
+  color: #f3cf7a;
+  font-family: 'Italianno', cursive;
+  padding-top: 50px;
+}
+
+/*.................... item2.................... */
+.item2img {
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+
+.item2img:hover {
+  transform: rotate(100deg);
+  -webkit-transform: rotate(100deg);
+}
+
+.item2text {
+  text-align: right;
+  margin-right: 80px;
+}
+
+.item2 {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.rowitem2{
+  margin-bottom: 100px;
+}
+
+.morefood {
+margin-left: 500px;
+font-family: 'Italianno', cursive;
+color: #f3cf7a;
+font-size: 2rem;
+}
+
+.morefood:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.events {
+  margin-top: 100px;
+}
+/*..................ingredients.............. */
+.ingredients {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.ingredientsP {
+  padding: 0 15%;
+}
+
+.ingredientsimg {
+  height: 300px;
+  width: 700px;
+}
+
+/*................. reservation ..................*/
+.pub {
+  height: 600px;
+  width: 1340px;
+  opacity: 0.6;
+}
+
+.reservation {
+  position: relative;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 150px;
+}
+
+.reservationcontent {
+  padding: 0 20px;
+  background: rgba(0, 151, 19, 0.3);
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reservationcontent1 {
+  background: rgba(0, 151, 19, 0.3);
+  color: #f3cf7a;
+  font-size: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reservationcontent2 {
+  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+/*............. footer............. */
+.col-sm-4 {
+  padding-bottom: 15%;
+  text-align: center;
+}
+
+.footerheading {
+  color: #f3cf7a;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+
+}
+
+.last {
+  text-align: center;
+}
+
+.lastheading {
+  padding-top: 0;
+}
+
+/* .............reservation.............. */
+
+label {
+  color:#f3cf7a;
+}
+
+.reservationh2 {
+  margin-bottom: 50px;
+}
+
+.reservationform {
+  margin-bottom: 300px;
+}
+
+.reservationbtn {
+  margin: 30px auto;
+}
+
+.form {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*............. confirmation........... */
+
+.jumbo {
+  background-color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.display-4, .lead,.jumbop {
+  color: black;
+}
+
+.jumbop {
+  font-size: 2rem;
+}
+ .jumbobtn {
+   margin-left: auto;
+   margin-right: auto;
+ }
